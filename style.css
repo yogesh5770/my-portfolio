@@ -256,8 +256,18 @@ h3 { font-family: var(--font-head); font-weight: 800; }
     height: 400px; border-radius: var(--radius-lg); overflow: hidden; position: relative;
     z-index: 1; transition: var(--transition);
 }
-.getfit-gradient { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
-.localknot-gradient { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.viralflow-gradient { 
+    background: linear-gradient(135deg, #6366f1, #06b6d4); 
+    background-image: url('assets/images/viral_flow_mockup_1778737969490.png');
+    background-size: cover;
+    background-position: center;
+}
+.slimfitness-gradient { 
+    background: linear-gradient(135deg, #000000, #39ff14); 
+    background-image: url('assets/images/slim_fitness_mockup_1778737992347.png');
+    background-size: cover;
+    background-position: center;
+}
 
 .project-overlay {
     position: absolute; inset: 0; background: rgba(0,0,0,0.3);
